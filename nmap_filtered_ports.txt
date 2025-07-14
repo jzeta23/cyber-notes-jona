@@ -1,0 +1,11 @@
+Se realizó un escaneo SYN (-sS) al host scanme.nmap.org utilizando parámetros de optimización:
+- --max-retries 2 para evitar reintentos excesivos
+- --host-timeout 2m para limitar el tiempo del host
+
+Resultado:
+- Host activo con latencia baja (0.081s)
+- 4 puertos abiertos (SSH, HTTP, nping-echo, Elite)
+- 975 puertos cerrados
+- 21 puertos filtrados por firewall o políticas del sistema
+
+Este escaneo mostró cómo ciertos servicios pueden estar ocultos o protegidos, y la utilidad de usar parámetros específicos para que Nmap no quede colgado.
